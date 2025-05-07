@@ -13,7 +13,7 @@ Fonts are separated by a & */
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --paragraph-font: Roboto, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-DD6E42: #4FB0C6;  /* headlines on a DD6E42 background */ 
