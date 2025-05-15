@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 25px;
+}
+
+#banner-title {
+    font-family: 'Roboto';
+    font-size: 3em;
+    font-weight: bold;
+}
