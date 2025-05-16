@@ -10,10 +10,10 @@ body{
     font-family: 'Roboto';
     font-size: 3em;
     font-weight: bold;
+    display: inline-block;
 }
 #banner-title:hover {
-    color: black;
-    background-color: white;
+    color: white;
     cursor: pointer;
 }
 
