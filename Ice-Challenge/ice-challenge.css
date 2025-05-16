@@ -1,4 +1,5 @@
 body{
+    background-color: #2596be;
     text-align: center;
     padding-left: 450px;
     padding-right: 450px;
@@ -10,3 +11,64 @@ body{
     font-size: 3em;
     font-weight: bold;
 }
+#banner-title:hover {
+    color: black;
+    
+}
+
+#Quote {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#quote-box {
+    
+    font-size: .82em;
+    color: white;
+}
+
+#quote-author {
+    font-family: "Roboto";
+    font-size: .85em;
+    color: white;
+}
+
+#list-box {
+    text-align: left;
+}
+
+#list-box-content {
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.10em;
+    font-weight: 1000;
+    font-style: bold;
+}
+
+.list-content {
+    margin-bottom: 5px;
+}
+
+#p-nelly {
+    width: 200px;
+ }
+
+ #quote-box-two {
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+    color: white;
+ }
+ #quote-author-two {
+    
+ }
+
+ #bottom-text-one {
+    margin-bottom: -27px;
+ }
+
+ #bottom-text-two {
+    max-width: 400px;
+    margin: 0 auto;
+ }
