@@ -1,0 +1,94 @@
+body {
+    background-color: #4FB0C6;
+}
+
+header {
+    background-color: #6D676E;
+    color: #F1C40F;
+}
+
+nav a{
+    color: #F1C40F;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #F1C40F;
+    color: #6D676E;
+}
+
+.icon {
+    width: 80px;
+}
+
+.book {
+    background-color: #6D676E;
+    color: #DD6E42;
+    text-decoration: none;
+}
+
+.book:hover {
+    background-color: #F1C40F;
+    color: #6D676E;
+}
+
+.join {
+    background-color: #6D676E;
+    color: #DD6E42;
+    text-decoration: none;
+}
+
+.join:hover {
+    background-color: #F1C40F;
+    color: #6D676E;
+}
+
+#content {
+    text-align: center;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#background {
+    height: 725px;
+}
+
+.msg {
+    background-color: #6D676E;
+}
+
+footer {
+    background-color: #6D676E;
+    text-align: left;
+}
+
+#footer-box {
+    color:#F1C40F;
+}
+
+#footer-box a{
+    color:#F1C40F;
+}
+
+#footer-box a:hover{
+    background-color: #F1C40F;
+    color: #6D676E;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: #F1C40F;
+    color: #6D676E;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2em;
+}    
+
+footer p a:hover {
+    text-decoration: underline;
+}    
