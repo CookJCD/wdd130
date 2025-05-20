@@ -7,7 +7,16 @@ header {
     color: #F1C40F;
 }
 
+main {
+    text-align: center;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 nav a{
+    text-align: center;
     color: #F1C40F;
     text-decoration: none;
 }
@@ -15,6 +24,18 @@ nav a{
 nav a:hover {
     background-color: #F1C40F;
     color: #6D676E;
+}
+
+#hero-message h1{
+    text-align: center;
+}
+
+#hero-message h4{
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
 }
 
 .icon {
@@ -43,16 +64,13 @@ nav a:hover {
     color: #6D676E;
 }
 
-#content {
-    text-align: center;
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
 #background {
     height: 725px;
 }
 
+.mountains {
+    justify-self: left;
+}
 .msg {
     background-color: #6D676E;
 }
