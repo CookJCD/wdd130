@@ -1,21 +1,38 @@
+body{
+    background: #b7d0e5;
+    font-family: "Roboto";
+}
+
+header{
+    background-color: #969899;
+    height: 90px;
+}
+
+header h1{
+    text-align: center;
+}
+
 nav {
-    background-color: grey;
+    background-color: #fcecbf;
+    margin: 0px 3px;
+    border-radius: 10px;
 }
 nav ul{
     list-style: none;
-    padding: 0;
+    padding: 0px 10px;
     margin: 0;
 }
 
 nav ul li {
     position: relative;
     display: inline-block;
-    border: grey 3px solid;
+    border: #fcecbf 3px solid;
 }
 
 nav ul li:hover {
     background: white;
     color: blue;
+    border-radius: 10px;
     /* border-radius: 10px; */
 
 }
@@ -23,7 +40,7 @@ nav ul li:hover {
 nav ul .dropdown {
     display: none;
     position: absolute;
-    background: grey;
+    background: #fcecbf;
     padding: 0;
     min-width: 180px;
     z-index: 100;
@@ -46,4 +63,8 @@ nav a {
     text-decoration: none;
     padding: 8px 16px;
     /* display: block; */
+}
+
+main{
+
 }
