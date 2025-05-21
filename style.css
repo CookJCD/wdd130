@@ -1,0 +1,49 @@
+nav {
+    background-color: grey;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+    border: grey 3px solid;
+}
+
+nav ul li:hover {
+    background: white;
+    color: blue;
+    /* border-radius: 10px; */
+
+}
+
+nav ul .dropdown {
+    display: none;
+    position: absolute;
+    background: grey;
+    padding: 0;
+    min-width: 180px;
+    z-index: 100;
+}
+
+nav ul .dropdown:hover {
+    display: block;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+nav ul .dropdown li {
+    display: block;
+}
+
+nav a {
+    /* color: yellow; */
+    text-decoration: none;
+    padding: 8px 16px;
+    /* display: block; */
+}
