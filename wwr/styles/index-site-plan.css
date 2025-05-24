@@ -1,33 +1,56 @@
 body {
-    background-color: #4FB0C6;
+    background-color: white;
 }
 
 header {
     background-color: #6D676E;
     color: #F1C40F;
+    padding-bottom: 3px;
 }
 
-main {
-    text-align: center;
+.logo {
+    width: 75px;
+    height: 75px;
 }
+
 #content {
-    max-width: 1600px;
-    margin: 0 auto;
+    font-family: 'Roboto', 'sans-serif';
 }
 
 nav a{
     text-align: center;
-    color: #F1C40F;
+    color: #DD6E42;
+    border-radius: 5px;
     text-decoration: none;
+    padding: 5px 15px;
 }
 
 nav a:hover {
-    background-color: #F1C40F;
-    color: #6D676E;
+    background-color: #DD6E42;
+    color: white;
+}
+
+#hero {
+    max-width: 100%;
+    text-align: center;
+}
+
+#hero-box {
+}
+
+#hero-img {
+    width: 100vw;
+}
+
+#hero-message {
+    height: 250px;
 }
 
 #hero-message h1{
+    font-family: 'Papyrus', 'sans-serif';
+    font-size: 2.5em;
     text-align: center;
+    color: #DD6E42;
 }
 
 #hero-message h4{
@@ -43,54 +66,81 @@ nav a:hover {
 }
 
 .book {
-    background-color: #6D676E;
-    color: #DD6E42;
+    background-color: #DD6E42;
+    padding: 6px;
+    border-radius: 4px;
+    color: white;
     text-decoration: none;
 }
 
 .book:hover {
-    background-color: #F1C40F;
-    color: #6D676E;
-}
-
-.join {
     background-color: #6D676E;
     color: #DD6E42;
-    text-decoration: none;
 }
 
-.join:hover {
-    background-color: #F1C40F;
-    color: #6D676E;
+main {
+}
+
+main section {
+    text-align: center;
+}
+main section .card-img {
+    border: #DD6E42 solid 5px;
+    border-radius: 3px;
+    max-height: 350px;
+    max-width: 350px;
+    height: 100%;
+    width: 100%;
 }
 
 #background {
     height: 725px;
+    background-color: #DD6E42;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-.mountains {
+main .mountains {
     justify-self: left;
+    margin-bottom: 125px;
 }
 .msg {
     background-color: #6D676E;
+    color: white;
+    margin-bottom: 100px;
+    padding: 1px 5px 10px 5px;
+}
+
+.join {
+    background-color: #DD6E42;
+    padding: 6px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+}
+
+.join:hover {
+    background-color: white;
+    color: #DD6E42;
 }
 
 footer {
     background-color: #6D676E;
     text-align: left;
+    padding: 1px 20px 1px 20px;
+    margin: 0px;
 }
 
 #footer-box {
-    color:#F1C40F;
 }
 
 #footer-box a{
-    color:#F1C40F;
+    color:#DD6E42;
 }
 
 #footer-box a:hover{
-    background-color: #F1C40F;
-    color: #6D676E;
+    background-color: #DD6E42;
+    color: white;
 }
 
 footer a {
@@ -98,13 +148,14 @@ footer a {
 }
 
 footer a:hover {
-    background-color: #F1C40F;
-    color: #6D676E;
+    background-color: #DD6E42;
+    color: white;
     text-decoration: none;
 }
 
 footer p {
     font-size: 1.2em;
+    color: #DD6E42;
 }    
 
 footer p a:hover {
