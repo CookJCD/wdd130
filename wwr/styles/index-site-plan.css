@@ -104,15 +104,12 @@ nav a:hover {
     grid-template-columns: repeat(10, 1fr);
 }
 
-main section {
+main {
     text-align: center;
 }
 
-.form-class {
+main form {
     margin-top: 100px;
-    grid-column: 4/7;
-    grid-row: 4/9;
-    text-align: center;
 }
 
 .card-img {
