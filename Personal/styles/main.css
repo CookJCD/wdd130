@@ -1,0 +1,126 @@
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    color: #F1C40F;
+    padding-bottom: 3px;
+    background-color: #373D20;
+    border-radius: 20px;
+}
+
+#logo_link {
+    padding-top: 6px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 75px;
+    height: 75px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around
+}
+
+nav a {
+    font-size: 1.2em;
+    justify-content:center;
+    align-self: center;
+    color: #EFF1ED;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #717744;
+    background-color: #EFF1ED;
+
+}
+
+#home-grid {
+    margin-top: 5px;
+    border-radius: 20px;;
+}
+
+.main-content {
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#personal-pic{
+    width: 550px;
+    height: 700px;
+    box-decoration-break: #EFF1ED 5px 5px 15px;
+}
+
+.about-me {
+    width: 500px;
+    font-size: 1.2em;
+    text-align: center;
+    align-self: center;
+    color: #EFF1ED;
+    background-color: #52528C;
+    box-shadow: #373D20 5px 5px 15px;
+    border-radius: 10px;
+}
+
+#family-pic{
+    width: 700px;
+    height: 500px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #373D20;
+    border-radius: 20px;
+}
+
+#social-media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p, a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #EFF1ED;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+footer p a:hover {
+    text-decoration: none;
+    color: #717744;
+    background-color: #EFF1ED;
+    
+}
+/*  
+#home-grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+#personal-pic{
+    grid-column: 2/5;
+    grid-row: 2/7;
+    width: 500px;
+    height: 700px;
+}
+
+.about-me {
+    grid-column: 6/9;
+    grid-row: 2/4;
+    text-align: center;
+}
+
+#family-pic{
+    grid-column: 6/9;
+    grid-row: 4/7;
+    width: 700px;
+    height: 500px;
+}
+*/
