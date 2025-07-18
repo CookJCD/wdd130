@@ -17,9 +17,11 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-function updateProject(imagePath, descriptionText) {
+function updateProject(imagePath, descriptionText, linkUrl) {
+  console.log("Updating project:", imagePath, descriptionText, linkUrl);
   document.getElementById("gameImage").src = imagePath;
   document.getElementById("imageDescription").textContent = descriptionText;
+  document.getElementById("projectLink").href = linkUrl;
 }
 
 function changeImage(newPath) {

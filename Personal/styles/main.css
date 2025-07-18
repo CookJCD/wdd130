@@ -101,8 +101,8 @@ footer p a:hover {
 
 /* Projects Page */
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: #373D20; 
+  color: #EFF1ED;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -113,16 +113,53 @@ footer p a:hover {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+#home-grid2 {
+    min-height: 80vh;
+}
+
+#project-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.project-list {
+    width: 500px;
+    margin-left: 50px;
+}
+
 .active, .accordion:hover {
-  background-color: #ccc;
+  background-color: #EFF1ED;
+  color: #717744;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  padding: 0 18px;
+  padding: 5px 18px;
   background-color: white;
   display: none;
   overflow: hidden;
+  justify-content: left;
+}
+
+.button {
+    display: block;            /* Makes it behave like a box */
+    width: 90%;               /* Full width of its container */
+    margin-top: -15px;
+    padding: 20px;             /* Adds space inside the box */
+    background-color: #717744;
+    color: #444;
+    border: none;
+    text-align: left;
+    font-size: 18px;
+    cursor: pointer;
+    box-sizing: border-box; 
+    border-radius: 10px;   /* Ensures padding doesn't overflow */
+}
+
+.button:hover {
+    color: #EFF1ED;
 }
 
 .accordion:after {
@@ -135,6 +172,19 @@ footer p a:hover {
 
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.about-project {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 800px;
+    color: #EFF1ED;
+    background-color: #52528C;
+    border: 5px solid #EFF1ED;
+    border-radius: 20px;
+    box-shadow: #373D20 5px 5px 15px;
 }
 
 /*  
