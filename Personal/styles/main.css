@@ -23,6 +23,7 @@ nav {
 }
 
 nav a {
+    font-family: "Copperplate", sans-serif;
     font-size: 1.2em;
     justify-content:center;
     align-self: center;
@@ -185,6 +186,114 @@ footer p a:hover {
     border: 5px solid #EFF1ED;
     border-radius: 20px;
     box-shadow: #373D20 5px 5px 15px;
+}
+
+/* Acomplishments Page */
+#home-grid3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;;
+    height: 75vh;
+    text-align: center;
+    align-content: center;
+}
+
+.accomplishments {
+    align-content: center;
+}
+
+.acc-boxes {
+    width: 700px;
+    height: 105px;
+    margin: 25px;
+    color: #EFF1ED;
+    background-color: #52528C;
+    border: #EFF1ED 3px solid;
+    border-radius: 20px;
+    box-shadow: #373D20 5px 5px 15px;
+}
+
+.acc-pictures{
+    width: 750px;
+    align-content: center;
+}
+
+.acc-pictures img {
+    width: 700px;
+    height: 375px;
+    align-content: center;
+}
+
+
+
+
+
+/* Contact me page */
+
+#contact-main {
+    text-align: center;
+    align-content: center;
+    min-height: 80vh;
+}
+
+form {
+  display: inline-block;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+p + p {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  min-width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, text areas have a monospace font */
+  font: 1em sans-serif;
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Set the outline width and style */
+  outline-style: solid;
+  /* To give a little highlight on active elements */
+  outline-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
 }
 
 /*  
