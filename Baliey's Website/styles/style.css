@@ -1,0 +1,84 @@
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+    color: #F1C40F;
+    background-color: #e7f1f5;
+    padding-bottom: 3px;
+}
+
+#Site-logo {
+    width: 75px;
+    height: 75px;
+    padding: 5px;
+    justify-self: left;
+    align-self: center;
+}
+
+.Logo {
+    width: 75px;
+    height: 75px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 90px;
+    margin: 0px 10px;
+}
+
+header a {
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #ff3031;
+}
+
+#Picture-box {
+    width: 80vw; /* or any % or px value */
+    max-width: 600px;
+    margin: 0 auto;
+    justify-self: center;
+}
+
+#Picture-banner {
+    width: 100%;
+    height: auto;
+}
+
+#Main-content {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    background-color: #e7f1f5;
+}
+
+#Mission-statement {
+    grid-column: 3/10;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ff3031;
+    background-color: #ffe6f5;
+}
+
+.Mission-paragraph:nth-child(2) {
+    grid-column: 3/7;
+    grid-row: 2/4;
+    font-family: 'Roboto', sans-serif;
+    color: #fe4b80;
+    font-size: 1em;
+}
+
+.Mission-paragraph:nth-child(3) {
+    grid-column: 3/7;
+    grid-row: 4/6;
+    font-family: 'Roboto', sans-serif;
+    color: #fe4b80;
+    font-size: 1em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e7f1f5;
+    margin-top: 50px;
+}
